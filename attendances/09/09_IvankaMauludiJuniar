@@ -1,0 +1,45 @@
+- Containerization
+- Docker menggunakan Container Linux.
+- Linux container biasanya disebut LXC yang pada Agustus 2018.
+- Memanfaatkan fungsi cgroups kernel linux dari kernel linux versi 2.6.24
+- Linux container adalah sebuah virtualisasi sistem operasi yang dapat digunakan untuk menjalankan beberapa sistem Linux yang terisolasi pada satu host
+
+Virtualisasi vs Container
+- Docker adalah sebuah container management system yang membantu mengelola container lebih mudah dan universal.
+- Memungkinkan membuat container pada virtual environment Mac/Windows di laptop dan menjalankan perintah atau mengoperasikannya.
+- Perintah atau operasi yang dilakukan pada container yang dijalankan di local, akan sama seperti yang berjalan di production.
+- Setiap membuat sebuah container, tidak membutuhan system operasi secara penuh
+- Docker mengandalkan penggunaan kernel Linux Kernel
+- Docker menghasilkan sebuah ukuran image yang kecil, compact, dan ringan untuk didistribusikan karena tidak terdapat kernel bahkan sistem operasi
+
+Keuntungan Container
+- Portability
+- Quick deployment/teardown
+- Managing infrastructure-like code
+- Open source
+- Consistency 
+
+Produk Virtualisasi
+- Berbasis hypervisor
+1.Oracle Virtualbox
+2.VMWare
+3.KVM
+4.Microsoft Hyper-V
+- Berbasis container
+1.OpenVZ
+2.LXC
+
+Apakah docker itu?
+- Docker adalah sebuah command-line program, sebuah background daemon dan serangkaian remote service dengan mengambil pendekatan logistic untuk memecahkan permasalahan umum perangkat lunak dan menyederhanakan pengalaman kita dalam installing, running, publishing, dan menghapus perangkat lunak.
+- Docker bukan bahasa pemrograman dan bukan sebuah framework untuk membangun perangkat lunak
+- Docker adalah sebuah tool yang membantu kita dalam menyelesaikan permasalah umum seperti installing, removing, upgrading, distributing, trustring, dan menggelola software.
+
+Istilah pada Dockerv
+- Docker container: virtual machine atau guest operating system, aplikasi kita berjalan di dalam docker container.
+- Docker client: kumpulan perintah command line untuk mengoperasikan docker container, misalkan membuat container, start/stop container, menghapus, dan sebagainya.
+- Docker daemon: aplikasi yang berjalan di host machine. Docker server berjalan di background(sebagai daemon) dan menunggu perintah dari docker client.
+- Docker engine: gabungan aplikasi yang menjalankan docker container, docker client, dan docker daemon. 
+
+
+
+
